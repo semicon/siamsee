@@ -1,7 +1,7 @@
 เปลี่ยนเป็นคำทำนาย 3 ภาษา
 
 css 
-
+<code>
 #paper {
             width: 400px;
             height: 732px;
@@ -11,7 +11,7 @@ css
             margin-bottom: 20px;
             display: none;
         }
-
+</code>
 
 ฟังก์ชั่นเปลี่ยนรูปภาพใบคำทำนาย
 
