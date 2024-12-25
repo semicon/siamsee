@@ -8,5 +8,5 @@
                 const formattedRandomImage = randomImage > 9 ? randomImage.toString() : `0${randomImage}`;
 
                 console.log(randomImage);
-                paper.style.backgroundImage = `url('https://www.liangchiang.com/gameImages/CM${formattedRandomImage}-1.jpg')`//url('https://semicon.github.io/siamsee/zxcv-${randomImage}.jpg')`;
+                paper.style.backgroundImage = `url('https://www.liangchiang.com/gameImages/CM${formattedRandomImage}-1.jpg')`;
             }
