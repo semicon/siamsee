@@ -1,7 +1,19 @@
 เปลี่ยนเป็นคำทำนาย 3 ภาษา
 
-ฟังก์ชั่นเปลี่ยนรูปภาพใบคำทำนาย
 
+#css 
+#paper {
+            width: 400px;
+            height: 732px;
+            background-image: url('https://semicon.github.io/img/web/transparent_bg.png');
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+
+#ฟังก์ชั่นเปลี่ยนรูปภาพใบคำทำนาย
 
             function changeBackground() {
                 const randomImage = Math.floor(Math.random() * 28) + 1;
