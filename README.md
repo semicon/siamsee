@@ -1,7 +1,7 @@
 เปลี่ยนเป็นคำทำนาย 3 ภาษา
 
+css 
 
-#css 
 #paper {
             width: 400px;
             height: 732px;
@@ -13,7 +13,7 @@
         }
 
 
-#ฟังก์ชั่นเปลี่ยนรูปภาพใบคำทำนาย
+ฟังก์ชั่นเปลี่ยนรูปภาพใบคำทำนาย
 
             function changeBackground() {
                 const randomImage = Math.floor(Math.random() * 28) + 1;
