@@ -1,6 +1,7 @@
 เปลี่ยนเป็นคำทำนาย 3 ภาษา
 
 css 
+
 <code>
 #paper {
             width: 400px;
@@ -14,7 +15,7 @@ css
 </code>
 
 ฟังก์ชั่นเปลี่ยนรูปภาพใบคำทำนาย
-
+<code>
             function changeBackground() {
                 const randomImage = Math.floor(Math.random() * 28) + 1;
                 const formattedRandomImage = randomImage > 9 ? randomImage.toString() : `0${randomImage}`;
@@ -22,3 +23,4 @@ css
                 console.log(randomImage);
                 paper.style.backgroundImage = `url('https://www.liangchiang.com/gameImages/CM${formattedRandomImage}-1.jpg')`;
             }
+</code>
