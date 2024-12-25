@@ -2,7 +2,7 @@
 
 css 
 
-<code>
+<pre>
 #paper {
             width: 400px;
             height: 732px;
@@ -12,10 +12,11 @@ css
             margin-bottom: 20px;
             display: none;
         }
-</code>
+</pre>
 
 ฟังก์ชั่นเปลี่ยนรูปภาพใบคำทำนาย
-<code>
+
+<pre>
             function changeBackground() {
                 const randomImage = Math.floor(Math.random() * 28) + 1;
                 const formattedRandomImage = randomImage > 9 ? randomImage.toString() : `0${randomImage}`;
@@ -23,4 +24,4 @@ css
                 console.log(randomImage);
                 paper.style.backgroundImage = `url('https://www.liangchiang.com/gameImages/CM${formattedRandomImage}-1.jpg')`;
             }
-</code>
+</pre>
