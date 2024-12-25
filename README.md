@@ -1,5 +1,7 @@
 เปลี่ยนเป็นคำทำนาย 3 ภาษา
 // ฟังก์ชั่นเปลี่ยนรูปภาพใบคำทำนาย
+
+
             function changeBackground() {
                 const randomImage = Math.floor(Math.random() * 28) + 1;
                 const formattedRandomImage = randomImage > 9 ? randomImage.toString() : `0${randomImage}`;
